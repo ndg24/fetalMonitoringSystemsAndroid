@@ -1,0 +1,24 @@
+name: fetalhealthmonitoring
+description: A Flutter app for audio recording and ultrasound detection to assist in fetal health monitoring
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  permission_handler: ^10.4.3
+  flutter_audio_recorder2: ^0.0.2
+  path_provider: ^2.1.0
+  microphone: ^0.1.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
